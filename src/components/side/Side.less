@@ -13,6 +13,28 @@
   color: #666;
   padding-left: 10px;
   box-sizing: border-box;
+  position: relative;
+
+  .icon(@iconImg, @size: 13px) {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(@iconImg) no-repeat center;
+    background-size: @size @size;
+    vertical-align: -3px;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    cursor: pointer;
+  }
+
+  .iconRightArraw {
+    .icon('assets/icons/rightArrow.png', 10px);
+  }
+
+  .iconRightAdd {
+    .icon('assets/icons/add.png', 15px);
+  }
 }
 
 .ulList {

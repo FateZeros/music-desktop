@@ -1,5 +1,8 @@
 # music-desktop
 
+![](https://img.shields.io/badge/react-javascript-brightgreen.svg)
+![](https://img.shields.io/badge/electron-web-brightgreen.svg)
+
 electron cross-platform desktop music application
 使用 JavaScript、HTML 和 CSS 构建跨平台的桌面应用
 
@@ -28,6 +31,12 @@ npm run elec-start
 
 // 配置 main.js
 vi electron/main.js
+```
+
+## 使用 react-router
+
+```bash
+npm install --save react-router-dom
 ```
 
 ## 启动项目

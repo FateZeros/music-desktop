@@ -32,7 +32,10 @@ class Side extends Component {
             朋友
           </li>
         </ul>
-        <div className={styles.sideCategory}>我的音乐</div>
+        <div className={styles.sideCategory}>
+          我的音乐
+          <i className={styles.iconRightArraw} />
+        </div>
         <ul className={styles.ulList}>
           <li className={styles.ulItem}>
             <i className={styles.iconItunes} />
@@ -51,7 +54,9 @@ class Side extends Component {
             我的MV
           </li>
         </ul>
-        <div className={styles.sideCategory}>创建的歌单</div>
+        <div className={styles.sideCategory}>
+          创建的歌单 <i className={styles.iconRightAdd} />
+        </div>
         <ul className={styles.ulList}>
           <li className={styles.ulItem}>
             <i className={styles.iconLike} />
