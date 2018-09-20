@@ -25,6 +25,19 @@ npm install less-loader less --save-dev
 npm install electron --save-dev
 
 npm run elec-start
+
+// 配置 main.js
+vi electron/main.js
+```
+
+## 启动项目
+
+```bash
+// 启动 web
+npm start
+
+// 启动 electron
+npm run elec-start
 ```
 
 ## 参考

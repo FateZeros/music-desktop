@@ -7,10 +7,10 @@ function createWindow() {
   // 创建浏览器窗口
   // mainWindow = new BrowserWindow({ width: 1000, height: 670 })
   win = new BrowserWindow({
-    width: 1550,
-    height: 720,
     // width: 1000,
-    // height: 670,
+    width: 1550,
+    height: 670,
+    resizable: false,
     titleBarStyle: 'hidden'
   })
 
