@@ -8,6 +8,11 @@ const config = [
     name: '私人FM',
     path: '/private-fm',
     key: 'privateFM'
+  },
+  {
+    name: 'MV',
+    path: '/mv',
+    key: 'mv'
   }
 ]
 
