@@ -22,6 +22,15 @@ npm run eject
 npm install less-loader less --save-dev
 ```
 
+## 使用 react-id-swiper
+
+```bash
+npm install --save react-id-swiper
+
+// 引入 swiper 样式
+import 'assets/css/swiper.css'
+```
+
 ## 使用 Electron
 
 ```bash
